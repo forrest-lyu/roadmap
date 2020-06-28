@@ -1,10 +1,10 @@
 # roadmap
-This is my roadmap of learning CS., SE. subjects, back-end dev., middleware dev., and front-end dev.
+This is the roadmap of learning CS., SE. subjects, front-end dev., bmiddleware dev, and back-end dev.
 
 ‘传统课程不适合自己, 如何构建自己的学习方法体系':  
 1. 明确学习目标.
 2. 确定学习路径.
-3. 明确学习时间安排.
+3. 明确学习时间安排 (Mon. - Sat., 08:00 - 09:00).
 4. 积极参与项目合作和社区互动.
 
 
@@ -15,9 +15,10 @@ This is my roadmap of learning CS., SE. subjects, back-end dev., middleware dev.
 ### 2/3 Programming language, program pattern, and algorithm
 ### 3/3 Subject and work
 
+不同 Level 学历教育对应的能力水平:  
 - 本科: 解决问题
 - 硕士: 设计问题 & 解决问题
-- 博士: 发现问题 & 设计问题 & 解决问题 (完备性)
+- 博士: 发现问题 & 设计问题 & 解决问题 (问题完备性验证)
 
 'Subject - Technology - Engineer' build my own knowledege architecture:  
 - Engineer: 软件体系结构, 软件设计模式, 软件生命周期 (需求工程, 系统设计方法, 软件复用, 软件测试, 软件演化)
