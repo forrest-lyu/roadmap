@@ -34,10 +34,74 @@ The two fundamental building blocks of object orientation:
 
 ## 1 An Introduction to Java
 1.1 Java as a Programing Platform
+
+Java is not only a programming language, but a whole platform, with a huge library, containing lots of reusable code, and an execution environment that provides services such as security, portability across operating systems, and automatic garbage collection.
+
+
 1.2 The Java 'White Paper' Buzzwords
+
+1. Simple
+2. Object-Oriented
+3. Distributed
+4. Robust  
+
+Java puts a lot of emphasis on early checking for possible problems, later dynamic (runtime) checking, and eliminating situations that are error-prone... The single biggest difference between Java and C/C++ is that Java has a pointer model that eliminates the possibility of overwriting memory and corrupting data.
+
+The Java compiler detects many problems that in other languages would show up only at runtime. As for the second point, anyone who has spent hours chasing memory corruption caused by a pointer bug will be very happy with this aspect of Java.
+
+5. Secure
+
+Java is intended to be used in networked/distributed environments.
+
+From the beginning, Java was designed to make certain kinds of attacks impossible, among them:  
+- Overrunning the runtime stack - a common attack of worms and viruses
+- Corrupting memory outside its own process space
+- Reading or writing files without permission
+
+6. Architecture-Neutral
+
+JIT.: interpreting virtual machine instructions is slower than running machine instructions at full speed. However, virtual machines have the option of translating the most frequently executed bytecode sequences into machine code - a process called just-in-time compilation.
+
+Java's virtual machine has another advantage. It increases security becasue it can check the behavior of instruction sequences.
+
+7. Portable
+
+Binary data is stored and transmitted in a fixed format, eliminating confusion about byte ordering. Strings are saved in a standard Unicode format.
+
+8. Interpreted
+
+JShell.
+
+9. High-Performance
+10. Multithreaded
+11. Dynamic
+
+
 1.3 Java Applets and the Internet
 1.4 A Short History of Java
+
+Evolution of the Java Language:  
+1.0, 1996 The language itself, 211 classes and interfaces.
+1.1, 1997 Inner classes, 477.
+1.2, 1998 The `strictfp` modifier, 1524.
+1.3, 2000 none, 1840.
+1.4, 2002 Assertions, 2723.
+5.0, 2004 Generic classes, foreach, varargs, autoboxing, metadata, enumerations, static import, 3279.
+6, None, 3793.
+7, 2011 Switch with strings, diamond operator, binary literals, exception handling enhancements, 4024.
+8, 2014 Lambda expressions, interfaces with default methods, stream and date/time libraries, 4240.
+9, 2017 Modules, miscellaneous language and library enhancements, 6005.
+11 (LTS), starting in 2018, Java versions are released every six months.
+
 1.5 Common Misconception about Java
+
+XML is a way to describe data. You can process XML data with any programming language, but the Java API contains excellent support XML processing.
+
+Source code for the virtual machine and the libraries has always been freely available, but only for inspection, not for modification and redistribution. Java was 'closed source, but playing nice'. In 2007, Sun announced that future versions os Java would be available under the GPL. Everyone is given a patent grant to use and modify Java, subject to the GPL, but only on desktop and server platforms. If you want to use Java in embedded systems, you need a different license and will likely need to pay royalties. However, these pateents will expire within the next decade, and at that point Java will be entirely free.
+
+JavaScript is a scripting language that can be used inside web pages, was invented by Netscape and originally called LiveScript. Java is **strongly typed** - the compiler catches many errors that arise from type misuse. In JavaScript, such errors are only found when the program runs, which makes their elimination far more laborious.
+
+
 ## 2 The Java Programming Environment
 2.1 Intalling the Java Development Kit
 2.2 Using the Command-Line Tools
