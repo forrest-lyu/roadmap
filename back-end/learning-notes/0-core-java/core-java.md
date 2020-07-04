@@ -111,6 +111,11 @@ JavaScript is a scripting language that can be used inside web pages, was invent
 3.1 A Simple Java Program
 3.2 Comments
 3.3 Data Types
+
+The `char` type was originally intended to describe individual character. However, this is no longer the case. Nowadays, some Unicode characters can be described with one `char` value, and other Unicode characters require two `char` values.
+
+Java was designed from the ground up to use 16-bit Unicode characters. Due to the addition of a very large set of ideographs used for Chinese, Japanese, and Korean. Now, the 16-bit `char` type if insufficient to describe all Unicode characters.
+
 3.4 Variables and Constants
 3.5 Operators
 3.6 Strings
