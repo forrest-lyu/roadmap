@@ -1,6 +1,6 @@
 # Roadmap
 
-This is the roadmap of learning CS. &  SE., front-end dev., middleware dev, and back-end dev.
+This is the roadmap of learning CS. &  SE. subject, front-end dev., middleware dev, and back-end dev.
 
 In the meanwhile, I will share my interview experience about how to apply a new job.
 
