@@ -56,7 +56,17 @@ public class FundamentalProgrammingStructuresSample
          *  - string
          *  - null
          */
+        
+        double operator1 = 2.22;
+        double operator2 = 222 / 100;   // 2
+
+        double operator3 = 0x1.0p-3;
+
+        System.out.println(operator1 == operator2);
+        System.out.println(operator3);
+
 
 
     }
 }
+
