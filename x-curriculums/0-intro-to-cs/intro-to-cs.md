@@ -17,7 +17,7 @@ A diagram of computing (abstraction -> automation):
 程序设计与构造 / 计算系统设计与构造
 
 
-## 03) Subject & specility
+## 03) Subject & Specility
 
 学科划分 & 专业内容:  
 - Computer Science & Technology
